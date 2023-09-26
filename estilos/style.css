@@ -19,9 +19,8 @@ body {
 }
 
 main {
-    height: 100vh;
     position: relative;
-   
+    height: 100vh;   
 }
 
 section#telefone {
@@ -35,6 +34,11 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
-section#redes-sociais{
-
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 100px;
+    height: 471;
 }
+
