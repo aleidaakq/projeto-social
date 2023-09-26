@@ -25,14 +25,13 @@ main {
 
 section#telefone {
     position: absolute;
-    z-index: -1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     height: 627px;
     width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat center;
 }
 
 iframe#tela {
@@ -45,13 +44,13 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: top;
-   
+    text-align: left;
+    position: relative;
 }
 
 section#redes-sociais > a > img {
-    width: 50px;
-    margin: 10px;
+    width: 45px;
+    margin: 5px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 
