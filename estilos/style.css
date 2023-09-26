@@ -45,6 +45,7 @@ iframe#tela {
 
 section#redes-sociais {
     text-align: top;
+    position: relative;
 }
 
 section#redes-sociais > a > img {
